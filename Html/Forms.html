@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="www.marrescafe.com/orders" method="post">
+        <form action="mailto:cpotwin@humana.com">
+        <form onsubmit="onsumbitOrderForm()">
+        <!--text input-->
+        <div>
+        <label for="mailaddress">Email</label>
+        <input type="text" id="mailaddress" placeholder="me@example.com">
+        <label for="phone number">Phone Number:</label>
+        <!--required  will check if this has a value when submitted-->
+        <input type="text" id="Phone number" placeholder="123-456-7890" required>
+    </div>
+        <!--radio buttons-->
+     <div style="color:aqua; background-color:grey">
+         <h2>Drink:</h2>
+        <input type="radio" id="Coffee" name="drink">
+        <label for="coffee">Coffee</label>
+        <br>
+        <input type="radio" id="Tea" name="drink">
+        <label for="Tea">Tea</label>
+        <!---checkboxes-->
+     </div>
+<div style="color:aqua; background-color:grey" id="Add ons">
+    <h2>Add ons</h2>
+    <!--milk input checkbox-->
+    <input type="checkbox" id="milk" name="additives">
+    <!--milk label-->
+    <label for="milk">Milk</label>
+    <br>
+    <input type="checkbox" id="sugar" name="additives">
+    <label for="sugar">Sugar</label>
+</div>
+<!--Text Area for special notes-->
+<div>
+<br>
+<label for="message">Special Notes</label>
+<br>
+<textarea name="message" id="message" cols="30" rows="5"></textarea>
+</div>
+<button>Submit Order!</button>
+</form>
+
+<script>
+    function onsubmitOrderForm() {alert("Oh Hello")}
+</script>
+
+</body>
+
+</html>
