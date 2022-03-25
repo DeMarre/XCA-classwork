@@ -1,0 +1,21 @@
+.red {color: black;}
+
+
+.blue {color: black;
+}
+
+.green {color:black;}
+
+.white {border: 2px solid black;
+float: left;
+padding: 5px;
+margin: 3px;}
+
+.white1 {border: 2px solid black;
+float: right;
+padding: 5px;
+margin: 3px;}
+
+.white2 {border:2px solid black;
+float: left;padding: 5px; margin: 3px;
+}

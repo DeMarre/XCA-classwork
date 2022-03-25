@@ -1,0 +1,6 @@
+.red { color: red;
+float: left;
+/* float:inline-start;} */ 
+}
+ .blue {color: blue;
+float: right;}
